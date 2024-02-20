@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <style>
+        .baslik .content{
+position: relative;
+display: inline-block;
+}
+.baslik{
+    width: 100%;
+    position: absolute;
+}
+.baslik li{
+    background-color: bisque;
+    width: 200px;
+    display: inline;
+    list-style: none;
+    padding: 20px;
+    
+
+}
+.baslik li a{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 5px ;
+    
+}
+.baslik .content .social{
+    display: none;
+    position: absolute;
+    padding: 10px !important;
+    background-color: bisque;
+}
+.baslik .content .social .social-media{
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.social .social-media li{
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.hover{
+    background-color: black;
+    color: white;
+   margin-top: -10;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.content:hover .social{ /*drop down menu yaptı*/
+    display: block;
+}
+
+    </style>
+</head>
+<body>
+
+    <ul class="baslik">
+        <li>
+            <a>Anasayfa</a>
+        </li>
+        <li>
+
+        
+        <a>Kadromuz</a>
+        </li>
+        <li>
+            <div class="content">
+                <a class="hover" >Galeri</a>
+                <div class="social">
+                    <ul class="social-media" >
+                        <li>Dağ</li>
+                        <li>Bayır</li>
+                        <li>Çimen</li>
+                        <li>Deniz</li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        
+            <li>
+                <a >İletişim</a>
+
+            </li>
+        </li>
+    </ul>
+
+
+    
+</body>
+</html>

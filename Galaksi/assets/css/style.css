@@ -1,0 +1,208 @@
+body{
+    background-image: url('../images/galaksi.png');
+    background-size: contain;
+    background-position: 100%;
+   
+}
+
+.samanyolu{
+    width: 1200px;
+    height:1200px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+}
+
+.pluton{
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+}
+
+.pluton img{
+    position: relative;
+    width: 100px;
+    animation: don 20s linear infinite;
+    top: 300px;
+}
+
+.merkur{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+}
+
+.merkur img{
+    position: relative;
+    width: 100px;
+    animation: don 20s linear infinite;
+    top: 200px;
+}
+
+.merkur{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    border: 1px dashed white;
+    animation: don 20s linear infinite;
+}
+
+.merkur img{
+    position: relative;
+    width: 100px;
+    animation: don 10s linear infinite;
+    top: 200px;
+}
+
+
+.venus{
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+}
+
+.venus img{
+    position: relative;
+    width: 90px;
+    animation: don 20s linear infinite;
+    top: 200px;
+}
+
+.mars{
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+}
+
+.mars img{
+    position: relative;
+    width: 70px;
+    animation: don 20s linear infinite;
+    top: 200px;
+}
+
+.neptun{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+    text-align: center;
+}
+
+.neptun img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: don 20s linear infinite;
+    top: -40px;
+}
+
+
+.jupiter{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+    text-align: center;
+}
+
+.jupiter img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: don 20s linear infinite;
+    top: -40px;
+}
+.gunes img{
+    position: absolute;
+    width: 300px;
+    border-radius: 50%;
+    top: 500px;
+    left: 500px;
+    text-align: center;
+    animation: don 2s linear infinite;
+    
+}
+
+.ay{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: 1px dashed white;
+    animation: don 3s linear infinite;
+    text-align: center;
+}
+
+.ay img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    animation: don 3s linear infinite;
+    top: -20px;
+}
+
+.dunya{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    border: 1px dashed white;
+    animation: don 30s linear infinite;
+    text-align: center;
+}
+
+.dunya img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    animation: don 10s linear infinite;
+    top: -20px;
+}
+
+@keyframes don{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes tersdon{
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,79 @@
+.p5{
+    padding: var(--mp5);
+}
+.pb5{
+    padding-bottom: var(--mp5);
+}
+.pt5{
+    padding-top: var(--mp5);
+}
+.ps5{
+    padding-left: var(--mp5);
+}
+.pe5{
+    padding-right: var(--mp5);
+}
+
+.p4{
+    padding: var(--mp4);
+}
+.pb4{
+    padding-bottom: var(--mp4);
+}
+.pt4{
+    padding-top: var(--mp4);
+}
+.ps4{
+    padding-left: var(--mp4);
+}
+.pe4{
+    padding-right: var(--mp4);
+}
+
+.p3{
+    padding: var(--mp3);
+}
+.pb3{
+    padding-bottom: var(--mp3);
+}
+.pt3{
+    padding-top: var(--mp3);
+}
+.ps3{
+    padding-left: var(--mp3);
+}
+.pe3{
+    padding-right: var(--mp3);
+}
+
+.p2{
+    padding: var(--mp2);
+}
+.pb2{
+    padding-bottom: var(--mp2);
+}
+.pt2{
+    padding-top: var(--mp2);
+}
+.ps4{
+    padding-left: var(--mp4);
+}
+.pe2{
+    padding-right: var(--mp2);
+}
+
+.p1{
+    padding: var(--mp1);
+}
+.pb1{
+    padding-bottom: var(--mp1);
+}
+.pt1{
+    padding-top: var(--mp1);
+}
+.ps1{
+    padding-left: var(--mp1);
+}
+.pe1{
+    padding-right: var(--mp1);
+}

@@ -1,0 +1,122 @@
+.header, .content, .slider, .footer{
+    width: calc(100% - 30px);
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    
+}
+.footer{
+    background-color: rgb(172, 79, 79);
+
+}
+.header .logo{
+    width: 200px;
+    float: left;
+    border-radius: 10px;
+}
+
+.header .header-menu, 
+.footer .footer-menu,
+.footer .social-menu{
+    list-style: none;
+}
+
+.header .header-menu .menu-item{
+    display: inline;
+    margin: 5px;
+    float: right;
+}
+
+.header .header-menu .menu-item .menu-link,
+.content .content-item a
+{
+    text-decoration: none;
+    color: brown;
+    background-color: coral;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.header .header-menu .menu-item .menu-link:hover,
+.content .content-item a:hover,
+.footer .footer-item .social-menu .menu-item:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(165, 59, 21);
+}
+
+.slider .slider-image{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.content .content-item, 
+.footer .footer-item{
+    width: calc(25% - 40px);
+    padding: 15px;
+    margin: 5px;
+    background-color: bisque;
+    float: left;
+    border-radius: 10px;
+}
+
+.content .content-item img, .footer .footer-item img{
+    width: 100%;
+}
+
+.footer .footer-item{
+    background-color: rgb(172, 79, 79);
+}
+
+.footer .footer-menu .menu-item .menu-link{
+    text-decoration: none;
+   font-size: 18px;
+}
+
+.footer .social-menu .menu-item{
+    display: inline;
+    float: left;
+}
+.footer .footer-item img{
+width: 100%;
+
+}
+.footer .footer-item .social-menu .menu-item{
+    width: calc(25% - 50px);
+    text-decoration: none;
+    color: brown;
+    background-color: coral;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    float: right;
+}
+
+.footer .social-menu .menu-item i{
+color: brown;
+size-adjust: 20px;
+
+}
+
+.footer .social-menu .menu-item i:hover{
+    color: bisque;
+
+}
+
+.footer .footer-item .footer-menu .menu-item .menu-link{
+    color: rgb(102, 23, 23);
+        float: right;
+        display: inline;
+        padding: 10px;
+        font-weight: bold;
+}
+
+.footer .footer-item .footer-menu .menu-item .menu-link:hover{
+       color: coral;
+        float: right;
+        display: inline;
+        padding: 10px;
+}
